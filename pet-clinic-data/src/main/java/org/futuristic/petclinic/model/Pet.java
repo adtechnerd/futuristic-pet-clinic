@@ -9,8 +9,12 @@ import java.time.LocalDate;
  * @author Aditya Ajmera
  *
  */
-public class Pet {
+public class Pet extends BaseEntity{
 
+	/**
+	 * generated serial id
+	 */
+	private static final long serialVersionUID = 7360296466782275870L;
 	private PetType petType;
 	private Owner owner;
 	private LocalDate birthDate;

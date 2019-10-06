@@ -7,8 +7,12 @@ package org.futuristic.petclinic.model;
  * @author Aditya Ajmera
  *
  */
-public class Person {
+public class Person extends BaseEntity{
 	
+	/**
+	 * generated serial id
+	 */
+	private static final long serialVersionUID = 336753935118600817L;
 	private String firstName;
 	private String lastName;
 	
